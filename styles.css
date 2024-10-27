@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+#main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.mybox {
+    justify-content: space-evenly;
+    display: flex;
+    width: 222px;
+    flex-wrap: wrap;
+}
+
+.mybox div {
+    margin: 5px;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.mybox .left {
+    background-color: red;
+}
